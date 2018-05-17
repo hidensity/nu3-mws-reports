@@ -1,0 +1,20 @@
+{
+  "name": "nu3/amazon-mws-reports",
+  "type": "library",
+  "description": "Amazon Marketplace Web Service Reports PHP Client Library Version 2009-01-01",
+  "keywords": ["amazon", "mws", "reports", "client", "api", "library"],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "nu3 GmbH"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.8",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "include-path": ["src/"]
+}
